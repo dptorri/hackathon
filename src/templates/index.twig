@@ -15,11 +15,13 @@
 
     .container {
         display: block;
-        background-color: #c7c7c7;
+        background-color: white;
         min-height: auto;
-        border: 0px solid #c7c7c7;
+        border: 0px solid white;
     }  
-
+    a active {
+        color: blue;
+    }
     .main {
         background-color: white;
         padding-top:10px;
@@ -53,7 +55,7 @@
         </div>
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link disable" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Menu</a>
@@ -100,7 +102,7 @@
    <div class="footer justify-content-center">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link disabled" href="#">Home</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#">Menu</a>
@@ -111,12 +113,12 @@
             <li class="nav-item">
             <a class="nav-link" href="#">Our Story</a>
             </li>
-        </ul></div>
-        <div class="nav justify-content-center">
-        <h2>#HIPSTERSMAKECOFFEE</h2></div>
-        <div class="nav justify-content-center">
-        <h2>Follow us on <a href="www.twitter.com">Twitter</a> and <a href="www.instagram.com">Instagram</a></h2>
-        </div>
+        </ul>
+              
+             <h3 class="nav-link disabled">#HIPSTERSMAKECOFFEE</h3>
+        <h5 class="nav-link disabled">Follow us on <a class="active" href="www.twitter.com">Twitter</a> and <a href="www.instagram.com">Instagram</a></h5>
+       </div>      
+ 
     
 </div>
 </body>
