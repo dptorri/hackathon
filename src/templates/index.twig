@@ -5,9 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Generic Hipster Coffee</title>
-    <link rel="stylesheet" href="scss/index.scss">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <!--<link rel="stylesheet" href="scss/index.scss"> ask where is the scss to be compiled?-->
+    <style>
+    body{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .container {
+        display: block;
+        background-color: #c7c7c7;
+        min-height: auto;
+        border: 0px solid #c7c7c7;
+    }  
+
+    .main {
+        background-color: white;
+        padding-top:10px;
+        padding-left: 10px;
+        padding-right: 66px;
+    }
+    img.p-img-thumbnail{
+        padding-top:10px;
+        max-width: 269px;
+        max-height: 152px;
+        padding-top:10px;
+    }
+    .footer {
+        display: block;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-top: -180px;
+    }
+    h2, h3{
+        padding-top:20px;
+    }
+    .footer h2 h3 {
+        padding-top:20px;
+    }
+   </style>
 </head>
 <body>
-    
+    <div class="container bg-light">       
+        <div class="d-flex justify-content-center">
+            <img src="logo.svg" alt="">
+        </div>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Coffee</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Our Story</a>
+                </li>
+            </ul>
+        </div> <!--ends container bg-light -->
+   
+
+    <div class="container ">
+        <div class="column ">
+        <div class="main">
+        <h2>GENERIC HIPSTER COFFEE</h2>
+        <h3>SPECIALTY COFFEE, FRESH FOOD &amp; LOCAL COMMUNITY</h3>
+        <div class="d-flex justify-content-center">
+            <img src="counter.jpg" alt="counter" class="p-img-thumbnail">
+        </div>
+        <h3>OPENING HOURS</h3>
+        <p>sunday - thursday:8:00 - 23:00<br>
+        friday - saturday:8:00 - 1:00</p>
+        <h3>BOOK A TABLE</h3>
+        <p>Call +1 415-321-4567 </p>
+        <h3>ADDRESS</h3>
+        <p>321 Ivy St.San Francisco, CA 94102 </p>
+    <div class="d-flex justify-content-center">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="270" height="153" id="gmap_canvas" src="https://maps.google.com/maps?q=321%20Ivy%20St%2C%20San%20Francisco%2C%20CA%2094102%2C%20United%20States&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe>
+            </div>
+            <style>.mapouter{overflow:hidden;height:280px;width:280px;}.gmap_canvas {background:none!important;height:280px;width:280px;}
+            </style>
+        </div>
+    </div>
+    </div><!-- ends main -->
+    </div><!-- ends column -->
+</div><!-- ends container -->
+<div class="container  bg-dark">  
+   <div class="footer justify-content-center">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Coffee</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Our Story</a>
+            </li>
+        </ul>
+        <h2>#HIPSTERSMAKECOFFEE</h2>
+        <h2>Follow us on <a href="www.twitter.com">Twitter</a> and <a href="www.instagram.com">Instagram</a></h2>
+    </div>
+</div>
 </body>
+
 </html>
