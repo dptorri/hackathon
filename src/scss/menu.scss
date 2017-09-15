@@ -1,0 +1,54 @@
+.logo {
+    max-width: 99px;
+    max-height: 99px;
+    margin-top: 16px;
+}
+
+.nav-link {
+    color: #A6A7A8;
+    padding: .5rem 0.4rem;
+}
+.nav-link.active {
+    color: #2F2F2F;
+}
+
+
+.coffee {
+    margin-left: 28px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 20px 0px;
+    padding-bottom: 1rem;
+}
+h2 {
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+.espresso_img {
+
+} 
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 3rem;
+}
+
+.espresso {
+    max-height: 15rem;
+    margin-left: 10px;
+}
+
+/* @media only screen and (min-width: 450px) {
+    .espresso_img {
+        width: 90%;
+        height: 
+} */
